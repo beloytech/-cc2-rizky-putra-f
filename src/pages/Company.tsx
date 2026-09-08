@@ -41,7 +41,7 @@ export default function Company() {
             {products.map((product) => (
               <article key={product.name} className="group overflow-hidden rounded-[1.5rem] border border-[#eadbd8] bg-white">
                 <div className="aspect-[4/5] overflow-hidden bg-[#f5ecea]">
-                  <img href="https://shopee.co.id/Parfum-Candy-Rush-RAV-C.-i.1291367964.50660243298?extraParams=%7B%22display_model_id%22%3A445900221521%2C%22model_selection_logic%22%3A3%7D" src={product.image} alt={product.name} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                  <img src={product.image} alt={product.name} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
                 </div>
                 <div className="p-6">
                   <div className="flex items-start justify-between gap-4">
